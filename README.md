@@ -18,7 +18,7 @@ Using Grid Search, best parameters for the algorithm are the following:
 
 Possible parameters:
 
-```json
+```py
 {
   "kernel": ["linear", "rbf"],
   "C": [1, 2, 3, 4, 5],
@@ -29,7 +29,7 @@ Possible parameters:
 
 Result:
 
-```json
+```py
 {
   "C": 3,
   "gamma": 0.001,
